@@ -1,0 +1,71 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.xcworkspacedata
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# CocoaPods (if used later)
+Pods/
+Podfile.lock
+
+# Carthage (if used later)
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+*.iml
+
+# Secrets and environment
+.env
+.env.*
+*.pem
+*.p12
+*.mobileprovision
+
+# Claude Code / AgentVibes
+.claude/audio/
+.claude/projects/
+
+# BMAD - Keep planning artifacts, ignore temp files
+_bmad-output/**/*.tmp
+_bmad-output/**/*.bak
+
+# Laravel API (if added to this repo)
+vendor/
+node_modules/
+.env
+storage/*.key
+Homestead.yaml
+Homestead.json
+npm-debug.log
+yarn-error.log

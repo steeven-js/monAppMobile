@@ -1,4 +1,4 @@
-# generated: 2026-01-19
+# generated: 2026-01-20
 # project: monAppMobile
 # project_key: mysubguard
 # tracking_system: file-system
@@ -33,7 +33,7 @@
 # - SM typically creates next story after previous one is 'done' to incorporate learnings
 # - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
 
-generated: 2026-01-19
+generated: 2026-01-20
 project: monAppMobile
 project_key: mysubguard
 tracking_system: file-system
@@ -43,106 +43,106 @@ development_status:
   # ===========================================
   # EPIC 1: Foundation & Authentication
   # ===========================================
-  epic-1: in-progress
-  1-1-project-setup-navigation-structure: review
-  1-2-sign-in-with-apple-integration: review
-  1-3-keychain-token-storage: review
-  1-4-session-restore-sign-out: review
+  epic-1: done
+  1-1-project-setup-navigation-structure: done
+  1-2-sign-in-with-apple-integration: done
+  1-3-keychain-token-storage: done
+  1-4-session-restore-sign-out: done
   epic-1-retrospective: optional
 
   # ===========================================
   # EPIC 2: Subscription Core
   # ===========================================
-  epic-2: in-progress
-  2-1-swiftdata-subscription-model: review
-  2-2-subscription-list-view: review
-  2-3-annual-total-header: review
-  2-4-add-subscription: review
-  2-5-edit-subscription: review
-  2-6-delete-subscription: review
-  2-7-category-breakdown: review
+  epic-2: done
+  2-1-swiftdata-subscription-model: done
+  2-2-subscription-list-view: done
+  2-3-annual-total-header: done
+  2-4-add-subscription: done
+  2-5-edit-subscription: done
+  2-6-delete-subscription: done
+  2-7-category-breakdown: done
   epic-2-retrospective: optional
 
   # ===========================================
   # EPIC 3: Catalogue Integration
   # ===========================================
-  epic-3: backlog
-  3-1-network-service-api-client: backlog
-  3-2-catalogue-sync-on-first-launch: backlog
-  3-3-catalogue-cache-with-24h-ttl: backlog
-  3-4-auto-complete-subscription-name-logo: backlog
-  3-5-community-suggestion-queue: backlog
+  epic-3: done
+  3-1-network-service-api-client: done
+  3-2-catalogue-sync-on-first-launch: done
+  3-3-catalogue-cache-with-24h-ttl: done
+  3-4-auto-complete-subscription-name-logo: done
+  3-5-community-suggestion-queue: done
   epic-3-retrospective: optional
 
   # ===========================================
   # EPIC 4: Acquittement Conscient
   # ===========================================
-  epic-4: backlog
-  4-1-acknowledgment-data-model: backlog
-  4-2-pending-payments-list: backlog
-  4-3-swipe-to-acknowledge: backlog
-  4-4-control-score-calculation: backlog
-  4-5-control-score-display: backlog
-  4-6-missed-payments-tracking: backlog
+  epic-4: done
+  4-1-acknowledgment-data-model: done
+  4-2-pending-payments-list: done
+  4-3-swipe-to-acknowledge: done
+  4-4-control-score-calculation: done
+  4-5-control-score-display: done
+  4-6-missed-payments-tracking: done
   epic-4-retrospective: optional
 
   # ===========================================
   # EPIC 5: Widget Experience
   # ===========================================
-  epic-5: backlog
-  5-1-widget-extension-setup: backlog
-  5-2-widget-timeline-provider: backlog
-  5-3-widget-display-upcoming-payments: backlog
-  5-4-widget-deep-links: backlog
-  5-5-widget-acknowledge-action: backlog
+  epic-5: done
+  5-1-widget-extension-setup: done
+  5-2-widget-timeline-provider: done
+  5-3-widget-display-upcoming-payments: done
+  5-4-widget-deep-links: done
+  5-5-widget-acknowledge-action: done
   epic-5-retrospective: optional
 
   # ===========================================
   # EPIC 6: Data Backup & Recovery
   # ===========================================
-  epic-6: backlog
-  6-1-icloud-backup-configuration: backlog
-  6-2-data-restore-on-new-device: backlog
-  6-3-merge-conflict-handling: backlog
+  epic-6: done
+  6-1-icloud-backup-configuration: done
+  6-2-data-restore-on-new-device: done
+  6-3-merge-conflict-handling: done
   epic-6-retrospective: optional
 
   # ===========================================
   # EPIC 7: Backend Admin Panel
   # ===========================================
-  epic-7: backlog
-  7-1-laravel-project-setup: backlog
-  7-2-catalogue-item-model-resource: backlog
-  7-3-logo-upload-management: backlog
-  7-4-admin-dashboard: backlog
-  7-5-funnel-visualization: backlog
-  7-6-community-suggestions-queue: backlog
-  7-7-merge-duplicate-subscriptions: backlog
-  7-8-most-added-subscriptions-ranking: backlog
-  7-9-user-threshold-alerts: backlog
+  epic-7: done
+  7-1-laravel-project-setup: done
+  7-2-catalogue-item-model-resource: done
+  7-3-logo-upload-management: done
+  7-4-admin-dashboard: done
+  7-5-funnel-visualization: done
+  7-6-community-suggestions-queue: done
+  7-7-merge-duplicate-subscriptions: done
+  7-8-most-added-subscriptions-ranking: done
+  7-9-user-threshold-alerts: done
   epic-7-retrospective: optional
 
   # ===========================================
   # EPIC 8: Analytics & Insights
   # ===========================================
-  epic-8: backlog
+  epic-8: in-progress
   8-1-analytics-service-setup: backlog
   8-2-sentry-crash-reporting: backlog
   8-3-funnel-event-tracking: backlog
   8-4-retention-event-tracking: backlog
   8-5-premium-conversion-tracking: backlog
-  8-6-analytics-api-endpoint: backlog
+  8-6-analytics-api-endpoint: done  # Created as part of Epic 7
   8-7-retention-cohorts-view: backlog
   epic-8-retrospective: optional
 
   # ===========================================
   # EPIC 9: Premium Monetization
   # ===========================================
-  epic-9: backlog
-  9-1-storekit-2-service-setup: backlog
-  9-2-premium-offer-screen: backlog
-  9-3-premium-purchase-flow: backlog
-  9-4-premium-status-verification: backlog
-  9-5-restore-purchases: backlog
-  9-6-manage-subscription-link: backlog
-  9-7-premium-feature-gating: backlog
+  epic-9: done
+  9-1-storekit-2-service-setup: done
+  9-2-premium-offer-screen: done
+  9-3-premium-purchase-flow: done
+  9-4-premium-status-verification: done
+  9-5-restore-purchases: done
+  9-6-manage-subscription-link: done
+  9-7-premium-feature-gating: done
   epic-9-retrospective: optional

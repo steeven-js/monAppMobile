@@ -53,14 +53,14 @@ development_status:
   # ===========================================
   # EPIC 2: Subscription Core
   # ===========================================
-  epic-2: backlog
-  2-1-swiftdata-subscription-model: backlog
-  2-2-subscription-list-view: backlog
-  2-3-annual-total-header: backlog
-  2-4-add-subscription: backlog
-  2-5-edit-subscription: backlog
-  2-6-delete-subscription: backlog
-  2-7-category-breakdown: backlog
+  epic-2: in-progress
+  2-1-swiftdata-subscription-model: review
+  2-2-subscription-list-view: review
+  2-3-annual-total-header: review
+  2-4-add-subscription: review
+  2-5-edit-subscription: review
+  2-6-delete-subscription: review
+  2-7-category-breakdown: review
   epic-2-retrospective: optional
 
   # ===========================================

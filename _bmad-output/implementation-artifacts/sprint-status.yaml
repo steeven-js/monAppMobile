@@ -46,8 +46,8 @@ development_status:
   epic-1: in-progress
   1-1-project-setup-navigation-structure: review
   1-2-sign-in-with-apple-integration: review
-  1-3-keychain-token-storage: backlog
-  1-4-session-restore-sign-out: backlog
+  1-3-keychain-token-storage: review
+  1-4-session-restore-sign-out: review
   epic-1-retrospective: optional
 
   # ===========================================

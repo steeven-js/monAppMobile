@@ -125,13 +125,13 @@ development_status:
   # EPIC 8: Analytics & Insights
   # ===========================================
   epic-8: in-progress
-  8-1-analytics-service-setup: backlog
+  8-1-analytics-service-setup: done
   8-2-sentry-crash-reporting: backlog
-  8-3-funnel-event-tracking: backlog
-  8-4-retention-event-tracking: backlog
-  8-5-premium-conversion-tracking: backlog
+  8-3-funnel-event-tracking: done  # Implemented in 8-1 AnalyticsService
+  8-4-retention-event-tracking: done  # Implemented in 8-1 AnalyticsService
+  8-5-premium-conversion-tracking: done  # Implemented in 8-1 AnalyticsService
   8-6-analytics-api-endpoint: done  # Created as part of Epic 7
-  8-7-retention-cohorts-view: backlog
+  8-7-retention-cohorts-view: done
   epic-8-retrospective: optional
 
   # ===========================================

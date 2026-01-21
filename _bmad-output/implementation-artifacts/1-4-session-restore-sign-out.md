@@ -25,7 +25,7 @@ so that **I can switch accounts or protect my privacy** (FR2).
 ## Tasks / Subtasks
 
 - [ ] **Task 1: Implement Session Restore on App Launch** (AC: #1, #2, #3)
-  - [ ] 1.1 Call `restoreSessionIfAvailable()` in MySubguardApp.swift on launch
+  - [ ] 1.1 Call `restoreSessionIfAvailable()` in MySubGuardApp.swift on launch
   - [ ] 1.2 Show loading state while checking session
   - [ ] 1.3 Verify credential state with Apple (already implemented in AuthViewModel)
   - [ ] 1.4 Navigate to main interface if valid session
@@ -62,7 +62,7 @@ so that **I can switch accounts or protect my privacy** (FR2).
 
 **Current File Locations:**
 ```
-MySubGuard/MySubguard/
+MySubGuard/MySubGuard/
 ├── Features/
 │   ├── Auth/
 │   │   ├── Services/AppleAuthService.swift
@@ -73,15 +73,15 @@ MySubGuard/MySubguard/
 │           └── SettingsView.swift  ← MODIFY (add sign out + status)
 ├── Core/
 │   └── Services/KeychainService.swift
-└── MySubguardApp.swift              ← MODIFY (add session restore)
+└── MySubGuardApp.swift              ← MODIFY (add session restore)
 ```
 
 ### App Launch Flow
 
 ```swift
-// MySubguardApp.swift
+// MySubGuardApp.swift
 @main
-struct MySubguardApp: App {
+struct MySubGuardApp: App {
     @State private var authViewModel = AuthViewModel()
     @State private var isCheckingSession = true
 
@@ -211,5 +211,5 @@ _To be filled after implementation_
 ### File List
 
 Files to modify:
-1. `MySubguard/MySubguardApp.swift` - Add session restore on launch
-2. `MySubguard/Features/Settings/Views/SettingsView.swift` - Add sign out + status
+1. `MySubGuard/MySubGuardApp.swift` - Add session restore on launch
+2. `MySubGuard/Features/Settings/Views/SettingsView.swift` - Add sign out + status

@@ -50,13 +50,13 @@ so that **I can use the app without creating a new account** (FR1, FR3).
   - [ ] 4.6 Add accessibility labels (VoiceOver: "Se connecter avec Apple")
 
 - [ ] **Task 5: Integrate Authentication Flow** (AC: #4)
-  - [ ] 5.1 Modify `MySubguardApp.swift` to inject AuthViewModel via @Environment
+  - [ ] 5.1 Modify `MySubGuardApp.swift` to inject AuthViewModel via @Environment
   - [ ] 5.2 Create conditional navigation: SignInView vs ContentView based on auth state
   - [ ] 5.3 Test full flow: launch → sign in → main interface
 
 - [ ] **Task 6: Add Sign in with Apple Capability** (AC: all)
   - [ ] 6.1 In Xcode: Target → Signing & Capabilities → + Capability → Sign in with Apple
-  - [ ] 6.2 Verify entitlement is added to MySubguard.entitlements
+  - [ ] 6.2 Verify entitlement is added to MySubGuard.entitlements
 
 ## Dev Notes
 
@@ -72,8 +72,8 @@ so that **I can use the app without creating a new account** (FR1, FR3).
 **File Locations Established:**
 ```
 MySubGuard/
-├── MySubguard/
-│   ├── MySubguardApp.swift          ← MODIFY (add auth check)
+├── MySubGuard/
+│   ├── MySubGuardApp.swift          ← MODIFY (add auth check)
 │   ├── ContentView.swift            ← Already has TabView
 │   ├── Core/
 │   │   └── Persistence/
@@ -266,12 +266,12 @@ struct SignInView: View {
 ### App Entry Point Modification
 
 ```swift
-// MySubguardApp.swift
+// MySubGuardApp.swift
 import SwiftUI
 import SwiftData
 
 @main
-struct MySubguardApp: App {
+struct MySubGuardApp: App {
     @State private var authViewModel = AuthViewModel()
 
     var body: some Scene {
@@ -353,10 +353,10 @@ _To be filled after implementation_
 ### File List
 
 Files to create:
-1. `MySubguard/Features/Auth/Views/SignInView.swift` - NEW
-2. `MySubguard/Features/Auth/ViewModels/AuthViewModel.swift` - NEW
-3. `MySubguard/Features/Auth/Services/AppleAuthService.swift` - NEW
+1. `MySubGuard/Features/Auth/Views/SignInView.swift` - NEW
+2. `MySubGuard/Features/Auth/ViewModels/AuthViewModel.swift` - NEW
+3. `MySubGuard/Features/Auth/Services/AppleAuthService.swift` - NEW
 
 Files to modify:
-1. `MySubguard/MySubguardApp.swift` - Add auth flow
-2. `MySubguard/MySubguard.entitlements` - Add Sign in with Apple capability
+1. `MySubGuard/MySubGuardApp.swift` - Add auth flow
+2. `MySubGuard/MySubGuard.entitlements` - Add Sign in with Apple capability

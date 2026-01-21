@@ -63,19 +63,19 @@ The project **MySubGuard** already exists at `/MySubGuard/`. This story adapts t
 ```
 MySubGuard/
 ├── MySubGuard.xcodeproj/
-├── MySubguard/
-│   ├── MySubguardApp.swift    ← Modify
+├── MySubGuard/
+│   ├── MySubGuardApp.swift    ← Modify
 │   ├── ContentView.swift       ← Modify
 │   └── Item.swift              ← DELETE (replace with our models)
-├── MySubguardTests/
-└── MySubguardUITests/
+├── MySubGuardTests/
+└── MySubGuardUITests/
 ```
 
 **Target State:**
 ```
 MySubGuard/
 ├── MySubGuard.xcodeproj/
-├── MySubguard/
+├── MySubGuard/
 │   ├── App/
 │   │   └── MySubGuardApp.swift
 │   ├── Features/
@@ -88,8 +88,8 @@ MySubGuard/
 ├── MySubGuardWidget/
 │   ├── MySubGuardWidget.swift
 │   └── MySubGuardWidgetBundle.swift
-├── MySubguardTests/
-└── MySubguardUITests/
+├── MySubGuardTests/
+└── MySubGuardUITests/
 ```
 
 ### Architecture Compliance
@@ -255,14 +255,14 @@ Claude Opus 4.5 (claude-opus-4-5-20251101)
 ### File List
 
 Files to create/modify:
-1. `MySubguard/App/MySubGuardApp.swift` - Modified with shared container
-2. `MySubguard/ContentView.swift` - TabView implementation
-3. `MySubguard/Core/Persistence/ModelContainer+Shared.swift` - NEW
-4. `MySubguard/Features/Subscriptions/Views/SubscriptionListView.swift` - NEW
-5. `MySubguard/Features/Acknowledgment/Views/AcknowledgeListView.swift` - NEW
-6. `MySubguard/Features/Settings/Views/SettingsView.swift` - NEW
+1. `MySubGuard/App/MySubGuardApp.swift` - Modified with shared container
+2. `MySubGuard/ContentView.swift` - TabView implementation
+3. `MySubGuard/Core/Persistence/ModelContainer+Shared.swift` - NEW
+4. `MySubGuard/Features/Subscriptions/Views/SubscriptionListView.swift` - NEW
+5. `MySubGuard/Features/Acknowledgment/Views/AcknowledgeListView.swift` - NEW
+6. `MySubGuard/Features/Settings/Views/SettingsView.swift` - NEW
 7. `MySubGuardWidget/MySubGuardWidget.swift` - NEW (via Xcode template)
 8. `MySubGuardWidget/MySubGuardWidgetBundle.swift` - NEW (via Xcode template)
 
 Files to delete:
-1. `MySubguard/Item.swift` - Default Xcode SwiftData model
+1. `MySubGuard/Item.swift` - Default Xcode SwiftData model

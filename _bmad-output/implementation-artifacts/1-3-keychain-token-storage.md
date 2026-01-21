@@ -57,7 +57,7 @@ so that **my session persists across app launches** (NFR-S1).
 
 **Current File Locations:**
 ```
-MySubGuard/MySubguard/
+MySubGuard/MySubGuard/
 ├── Features/
 │   └── Auth/
 │       ├── Services/
@@ -282,7 +282,7 @@ _To be filled after implementation_
 ### File List
 
 Files to create:
-1. `MySubguard/Core/Services/KeychainService.swift` - NEW
+1. `MySubGuard/Core/Services/KeychainService.swift` - NEW
 
 Files to modify:
-1. `MySubguard/Features/Auth/ViewModels/AuthViewModel.swift` - Add Keychain integration
+1. `MySubGuard/Features/Auth/ViewModels/AuthViewModel.swift` - Add Keychain integration

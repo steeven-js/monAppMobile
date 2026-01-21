@@ -134,7 +134,7 @@ extension ModelContainer {
             Subscription.self
         ])
         let config = ModelConfiguration(
-            "MySubguard",
+            "MySubGuard",
             schema: schema,
             groupContainer: .identifier("group.com.steeven.mysubguard")
         )
@@ -172,7 +172,7 @@ _To be filled after implementation_
 ### File List
 
 Files to create:
-1. `MySubguard/Core/Models/Subscription.swift` - NEW
+1. `MySubGuard/Core/Models/Subscription.swift` - NEW
 
 Files to modify:
-1. `MySubguard/Core/Persistence/ModelContainer+Shared.swift` - Add Subscription to schema
+1. `MySubGuard/Core/Persistence/ModelContainer+Shared.swift` - Add Subscription to schema

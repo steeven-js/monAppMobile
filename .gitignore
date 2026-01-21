@@ -60,12 +60,5 @@ iOSInjectionProject/
 _bmad-output/**/*.tmp
 _bmad-output/**/*.bak
 
-# Laravel API (if added to this repo)
-vendor/
-node_modules/
-.env
-storage/*.key
-Homestead.yaml
-Homestead.json
-npm-debug.log
-yarn-error.log
+# Laravel API (séparé dans son propre dépôt)
+backend/

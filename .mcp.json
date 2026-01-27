@@ -7,6 +7,13 @@
         "--package=agentvibes",
         "agentvibes-mcp-server"
       ]
+    },
+    "mcp-mermaid": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-mermaid"
+      ]
     }
   }
 }
